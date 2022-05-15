@@ -1,7 +1,9 @@
+/*
+https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+*/
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
-
 fn main() {
     let x = 5;
     let y = 10;
