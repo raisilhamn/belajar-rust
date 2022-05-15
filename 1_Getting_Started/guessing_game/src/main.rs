@@ -36,6 +36,7 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue,
         };
+        // prase stirng = mengubah string ke angka (yaitu u32) 
         // let guess: u32 = guess.trim().parse().expect("Please type a number!");
 
         println!("You guessed: {}", guess);
